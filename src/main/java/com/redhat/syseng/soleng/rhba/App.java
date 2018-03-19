@@ -14,9 +14,7 @@ import org.kie.server.client.ProcessServicesClient;
 
 public class App {
     public static void main(String[] args) {
-        String serverUrl = "http://localhost:8180/kie-execution-server/services/rest/server";
-        //below is to be used for kie server in OCP. 
-        //String serverUrl = "http://myapp-kieserver-test-rhba.rhdp.ocp.cloud.lab.eng.bos.redhat.com/services/rest/server";
+        String serverUrl = "http://myapp-kieserver-test-rhba.rhdp.ocp.cloud.lab.eng.bos.redhat.com/services/rest/server";
 
         String username = "executionUser";
         String password = "password";

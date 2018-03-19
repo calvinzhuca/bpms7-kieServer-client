@@ -26,10 +26,7 @@ public class AppJms {
     public static void main(String[] args) throws NamingException {
         String username = "executionUser";
         String password = "password";
-        String REMOTING_URL = new String("http-remoting://localhost:8180");
-        
-        //below is to be used for kie server in OCP. 
-//        String REMOTING_URL = new String("http-remoting://myapp-kieserver-test-rhba.rhdp.ocp.cloud.lab.eng.bos.redhat.com:80");
+        String REMOTING_URL = new String("http-remoting://myapp-kieserver-test-rhba.rhdp.ocp.cloud.lab.eng.bos.redhat.com:80");
         
         String INITIAL_CONTEXT_FACTORY = new String("org.jboss.naming.remote.client.InitialContextFactory");
         //String INITIAL_CONTEXT_FACTORY = new String("org.wildfly.naming.client.WildFlyInitialContextFactory");
