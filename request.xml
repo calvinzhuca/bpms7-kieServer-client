@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kie-container container-id="hr">
+  <release-id>
+    <group-id>org.jbpm</group-id>
+    <artifact-id>human-resources</artifact-id>
+    <version>1.0</version>
+  </release-id>
+</kie-container>
